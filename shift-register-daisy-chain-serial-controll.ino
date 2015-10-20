@@ -30,6 +30,14 @@ void setup(){
 }               
 
 
+/*
+PROBLEM. to be fixed:
+Random shift register's output states at power up
+maybe solution:
+OE / MR pins 
+pullup resistors
+*/
+
 //set all register pins to LOW
 void clearRegisters(){
   for(int i = numOfRegisterPins - 1; i >=  0; i--){
