@@ -147,16 +147,16 @@ void relaycontroll()
 
 
 /////////////////////////// Relay 1 
-     if (input == "led1_on")
+     if (input == "dev1_on")
      {
-      setRegisterPin(led1, HIGH);
+      setRegisterPin(dev1, HIGH);
       writeRegisters();
       delay(delayTime);
    //   clearRegisters();
      }
-     else if(input == "led1_off") 
+     else if(input == "dev1_off") 
 { 
-      setRegisterPin(led1, LOW);
+      setRegisterPin(dev1, LOW);
       writeRegisters();
       delay(delayTime);
   //    clearRegisters();
@@ -164,16 +164,16 @@ void relaycontroll()
 }
 ////////////////////////// end Relay 1
 /////////////////////////// Relay 2 
-     if (input == "led2_on")
+     if (input == "dev2_on")
      {
-      setRegisterPin(led2, HIGH);
+      setRegisterPin(dev2, HIGH);
       writeRegisters();
       delay(delayTime);
    //   clearRegisters();
      }
-     else if(input == "led2_off") 
+     else if(input == "dev2_off") 
 { 
-      setRegisterPin(led2, LOW);
+      setRegisterPin(dev2, LOW);
       writeRegisters();
       delay(delayTime);
   //    clearRegisters();
@@ -181,16 +181,16 @@ void relaycontroll()
 }
 ////////////////////////// end Relay 2
 /////////////////////////// Relay 3 
-     if (input == "led3_on")
+     if (input == "dev3_on")
      {
-      setRegisterPin(led3, HIGH);
+      setRegisterPin(dev3, HIGH);
       writeRegisters();
       delay(delayTime);
    //   clearRegisters();
      }
-     else if(input == "led3_off") 
+     else if(input == "dev3_off") 
 { 
-      setRegisterPin(led3, LOW);
+      setRegisterPin(dev3, LOW);
       writeRegisters();
       delay(delayTime);
   //    clearRegisters();
@@ -198,16 +198,16 @@ void relaycontroll()
 }
 ////////////////////////// end Relay 3
 /////////////////////////// Relay 4 
-     if (input == "led4_on")
+     if (input == "dev4_on")
      {
-      setRegisterPin(led4, HIGH);
+      setRegisterPin(dev4, HIGH);
       writeRegisters();
       delay(delayTime);
    //   clearRegisters();
      }
-     else if(input == "led4_off") 
+     else if(input == "dev4_off") 
 { 
-      setRegisterPin(led4, LOW);
+      setRegisterPin(dev4, LOW);
       writeRegisters();
       delay(delayTime);
   //    clearRegisters();
@@ -215,16 +215,16 @@ void relaycontroll()
 }
 ////////////////////////// end Relay 4
 /////////////////////////// Relay 5 
-     if (input == "led5_on")
+     if (input == "dev5_on")
      {
-      setRegisterPin(led5, HIGH);
+      setRegisterPin(dev5, HIGH);
       writeRegisters();
       delay(delayTime);
    //   clearRegisters();
      }
-     else if(input == "led5_off") 
+     else if(input == "dev5_off") 
 { 
-      setRegisterPin(led5, LOW);
+      setRegisterPin(dev5, LOW);
       writeRegisters();
       delay(delayTime);
   //    clearRegisters();
@@ -232,16 +232,16 @@ void relaycontroll()
 }
 ////////////////////////// end Relay 5
 /////////////////////////// Relay 6 
-     if (input == "led6_on")
+     if (input == "dev6_on")
      {
-      setRegisterPin(led6, HIGH);
+      setRegisterPin(dev6, HIGH);
       writeRegisters();
       delay(delayTime);
    //   clearRegisters();
      }
-     else if(input == "led6_off") 
+     else if(input == "dev6_off") 
 { 
-      setRegisterPin(led6, LOW);
+      setRegisterPin(dev6, LOW);
       writeRegisters();
       delay(delayTime);
   //    clearRegisters();
@@ -249,16 +249,16 @@ void relaycontroll()
 }
 ////////////////////////// end Relay 6
 /////////////////////////// Relay 7 
-     if (input == "led7_on")
+     if (input == "dev7_on")
      {
-      setRegisterPin(led7, HIGH);
+      setRegisterPin(dev7, HIGH);
       writeRegisters();
       delay(delayTime);
    //   clearRegisters();
      }
-     else if(input == "led7_off") 
+     else if(input == "dev7_off") 
 { 
-      setRegisterPin(led7, LOW);
+      setRegisterPin(dev7, LOW);
       writeRegisters();
       delay(delayTime);
   //    clearRegisters();
@@ -266,16 +266,16 @@ void relaycontroll()
 }
 ////////////////////////// end Relay 7
 /////////////////////////// Relay 8 
-     if (input == "led8_on")
+     if (input == "dev8_on")
      {
-      setRegisterPin(led8, HIGH);
+      setRegisterPin(dev8, HIGH);
       writeRegisters();
       delay(delayTime);
    //   clearRegisters();
      }
-     else if(input == "led8_off") 
+     else if(input == "dev8_off") 
 { 
-      setRegisterPin(led8, LOW);
+      setRegisterPin(dev8, LOW);
       writeRegisters();
       delay(delayTime);
   //    clearRegisters();
@@ -283,16 +283,16 @@ void relaycontroll()
 }
 ////////////////////////// end Relay 8
 /////////////////////////// Relay 9 
-     if (input == "led9_on")
+     if (input == "dev9_on")
      {
-      setRegisterPin(led9, HIGH);
+      setRegisterPin(dev9, HIGH);
       writeRegisters();
       delay(delayTime);
    //   clearRegisters();
      }
-     else if(input == "led9_off") 
+     else if(input == "dev9_off") 
 { 
-      setRegisterPin(led9, LOW);
+      setRegisterPin(dev9, LOW);
       writeRegisters();
       delay(delayTime);
   //    clearRegisters();
@@ -300,16 +300,16 @@ void relaycontroll()
 }
 ////////////////////////// end Relay 9
 /////////////////////////// Relay 10 
-     if (input == "led10_on")
+     if (input == "dev10_on")
      {
-      setRegisterPin(led10, HIGH);
+      setRegisterPin(dev10, HIGH);
       writeRegisters();
       delay(delayTime);
    //   clearRegisters();
      }
-     else if(input == "led10_off") 
+     else if(input == "dev10_off") 
 { 
-      setRegisterPin(led10, LOW);
+      setRegisterPin(dev10, LOW);
       writeRegisters();
       delay(delayTime);
   //    clearRegisters();
@@ -317,16 +317,16 @@ void relaycontroll()
 }
 ////////////////////////// end Relay 10
 /////////////////////////// Relay 11 
-     if (input == "led11_on")
+     if (input == "dev11_on")
      {
-      setRegisterPin(led11, HIGH);
+      setRegisterPin(dev11, HIGH);
       writeRegisters();
       delay(delayTime);
    //   clearRegisters();
      }
-     else if(input == "led11_off") 
+     else if(input == "dev11_off") 
 { 
-      setRegisterPin(led11, LOW);
+      setRegisterPin(dev11, LOW);
       writeRegisters();
       delay(delayTime);
   //    clearRegisters();
@@ -334,16 +334,16 @@ void relaycontroll()
 }
 ////////////////////////// end Relay 11
 /////////////////////////// Relay 12 
-     if (input == "led12_on")
+     if (input == "dev12_on")
      {
-      setRegisterPin(led12, HIGH);
+      setRegisterPin(dev12, HIGH);
       writeRegisters();
       delay(delayTime);
    //   clearRegisters();
      }
-     else if(input == "led12_off") 
+     else if(input == "dev12_off") 
 { 
-      setRegisterPin(led12, LOW);
+      setRegisterPin(dev12, LOW);
       writeRegisters();
       delay(delayTime);
   //    clearRegisters();
@@ -351,16 +351,16 @@ void relaycontroll()
 }
 ////////////////////////// end Relay 12
 /////////////////////////// Relay 13 
-     if (input == "led13_on")
+     if (input == "dev13_on")
      {
-      setRegisterPin(led13, HIGH);
+      setRegisterPin(dev13, HIGH);
       writeRegisters();
       delay(delayTime);
    //   clearRegisters();
      }
-     else if(input == "led13_off") 
+     else if(input == "dev13_off") 
 { 
-      setRegisterPin(led13, LOW);
+      setRegisterPin(dev13, LOW);
       writeRegisters();
       delay(delayTime);
   //    clearRegisters();
@@ -368,16 +368,16 @@ void relaycontroll()
 }
 ////////////////////////// end Relay 13
 /////////////////////////// Relay 14 
-     if (input == "led14_on")
+     if (input == "dev14_on")
      {
-      setRegisterPin(led14, HIGH);
+      setRegisterPin(dev14, HIGH);
       writeRegisters();
       delay(delayTime);
    //   clearRegisters();
      }
-     else if(input == "led14_off") 
+     else if(input == "dev14_off") 
 { 
-      setRegisterPin(led14, LOW);
+      setRegisterPin(dev14, LOW);
       writeRegisters();
       delay(delayTime);
   //    clearRegisters();
@@ -385,16 +385,16 @@ void relaycontroll()
 }
 ////////////////////////// end Relay 14
 /////////////////////////// Relay 15 
-     if (input == "led15_on")
+     if (input == "dev15_on")
      {
-      setRegisterPin(led15, HIGH);
+      setRegisterPin(dev15, HIGH);
       writeRegisters();
       delay(delayTime);
    //   clearRegisters();
      }
-     else if(input == "led15_off") 
+     else if(input == "dev15_off") 
 { 
-      setRegisterPin(led15, LOW);
+      setRegisterPin(dev15, LOW);
       writeRegisters();
       delay(delayTime);
   //    clearRegisters();
@@ -402,16 +402,16 @@ void relaycontroll()
 }
 ////////////////////////// end Relay 15
 /////////////////////////// Relay 16 
-     if (input == "led16_on")
+     if (input == "dev16_on")
      {
-      setRegisterPin(led16, HIGH);
+      setRegisterPin(dev16, HIGH);
       writeRegisters();
       delay(delayTime);
    //   clearRegisters();
      }
-     else if(input == "led16_off") 
+     else if(input == "dev16_off") 
 { 
-      setRegisterPin(led16, LOW);
+      setRegisterPin(dev16, LOW);
       writeRegisters();
       delay(delayTime);
   //    clearRegisters();
