@@ -1,9 +1,9 @@
-int SER_Pin = 8;   //pin 14 on the 75HC595
-int RCLK_Pin = 12;  //pin 12 on the 75HC595
-int SRCLK_Pin = 11; //pin 11 on the 75HC595
+int SER_Pin = 11;   //pin 14 on the 75HC595
+int RCLK_Pin = 8;  //pin 12 on the 75HC595
+int SRCLK_Pin = 12; //pin 11 on the 75HC595
 
 //How many of the shift registers - change this
-#define number_of_74hc595s 3
+#define number_of_74hc595s 2
 
 //do not touch
 #define numOfRegisterPins number_of_74hc595s * 8
@@ -392,4 +392,3 @@ void relaycontroll()
 
 
 }
-
