@@ -3,31 +3,63 @@ int RCLK_Pin = 8;  //pin 12 on the 75HC595
 int SRCLK_Pin = 12; //pin 11 on the 75HC595
 
 //How many of the shift registers - change this
-#define number_of_74hc595s 2
+#define number_of_74hc595s 6
 
-//do not touch
+//register pins
 #define numOfRegisterPins number_of_74hc595s * 8
 
 boolean registers[numOfRegisterPins];
 
 
-int led1=0;
-int led2=1;
-int led3=2;
-int led4=3;
-int led5=4;
-int led6=5;
-int led7=6;
-int led8=7;
-// second shift
-int led9=8;
-int led10=9;
-int led11=10;
-int led12=11;
-int led13=12;
-int led14=13;
-int led15=14;
-int led16=15;
+int dev1=0;
+int dev2=1;
+int dev3=2;
+int dev4=3;
+int dev5=4;
+int dev6=5;
+int dev7=6;
+int dev8=7;
+int dev9=8;
+int dev10=9;
+int dev11=10;
+int dev12=11;
+int dev13=12;
+int dev14=13;
+int dev15=14;
+int dev16=15;
+int dev17=16;
+int dev18=17;
+int dev19=18;
+int dev20=19;
+int dev21=20;
+int dev22=21;
+int dev23=22;
+int dev24=23;
+int dev25=24;
+int dev26=25;
+int dev27=26;
+int dev28=27;
+int dev29=28;
+int dev30=29;
+int dev31=30;
+int dev32=31;
+int dev33=32;
+int dev34=33;
+int dev35=34;
+int dev36=35;
+int dev37=36;
+int dev38=37;
+int dev39=38;
+int dev40=39;
+int dev41=40;
+int dev42=41;
+int dev43=42;
+int dev44=43;
+int dev45=44;
+int dev46=45;
+int dev47=46;
+int dev48=47;
+
 
 
 
