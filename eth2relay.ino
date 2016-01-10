@@ -21,9 +21,9 @@ boolean reading = false;
 
 
 
-int SER_Pin = 11;   //pin 14 on the 75HC595
-int RCLK_Pin = 8;  //pin 12 on the 75HC595
-int SRCLK_Pin = 12; //pin 11 on the 75HC595
+int SER_Pin = 6;   //pin 14 on the 75HC595
+int RCLK_Pin = 5;  //pin 12 on the 75HC595
+int SRCLK_Pin = 7; //pin 11 on the 75HC595
 
 //How many of the shift registers - change this
 #define number_of_74hc595s 2
@@ -147,35 +147,35 @@ void checkForClient(){
           Serial.print(c);
 
            switch (c) {
-            case 'a':
+            case 'A':
               //add code here to trigger on 2
               triggerPin(dev1, client);
               break;
-            case 'b':
+            case 'a':
             //add code here to trigger on 3
               triggerOff(dev1, client);
               break;
-            case 'c':
+            case 'B':
             //add code here to trigger on 4
               triggerPin(dev2, client);
               break;
-            case 'd':
+            case 'b':
             //add code here to trigger on 5
               triggerOff(dev2, client);
               break;
-            case 'e':
+            case 'C':
             //add code here to trigger on 6
               triggerPin(dev3, client);
               break;
-            case 'f':
+            case 'c':
             //add code here to trigger on 7
               triggerOff(dev3, client);
               break;
-            case 'g':
+            case 'D':
             //add code here to trigger on 8
               triggerPin(dev4, client);
               break;
-            case 'h':
+            case 'd':
             //add code here to trigger on 9
               triggerOff(dev4, client);
               break;
