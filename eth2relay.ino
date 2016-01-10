@@ -208,7 +208,7 @@ void checkForClient(){
 
 
 void triggerOff(int offdev, EthernetClient client){
-  int delayTime=200;
+  int delayTime=1000;
   
     client.print("Turning OFF dev ");
   client.println(offdev);
@@ -224,7 +224,7 @@ void triggerOff(int offdev, EthernetClient client){
   
 void triggerPin(int ondev, EthernetClient client){
   
-    int delayTime=200;
+    int delayTime=1000;
   
   client.print("Turning on dev ");
   client.println(ondev);
