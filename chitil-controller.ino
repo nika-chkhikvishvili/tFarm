@@ -2,7 +2,8 @@
 
 #include "DHT.h"
 #define DHTPIN 3
-#define AirPump 13
+#define HeatPad 13
+#define DCCooler  12
 #define DHTTYPE DHT11   // DHT 11
 DHT dht(DHTPIN, DHTTYPE);
 float temp; 
@@ -11,13 +12,14 @@ float temp;
 void setup() {
   Serial.begin(9600);
   pinMode(2, OUTPUT);
-  pinMode(AirPump,OUTPUT);
+  pinMode(HeatPad,OUTPUT);
+    pinMode(DCCooler,OUTPUT);
   dht.begin();
 }
 
 void loop() {
   temp = read_temp();
-  delay(2000);
+  delay(12000);
 
   float h = dht.readHumidity();
   float t = dht.readTemperature();
@@ -42,9 +44,21 @@ void loop() {
   Serial.println(" *C");
   
   ///////
-  if (h > 80) digitalWrite(AirPump, HIGH); 
-  if (h < 70) digitalWrite(AirPump, LOW);
-  
+
+if (temp >27) {
+		digitalWrite(HeatPad, LOW);
+	} else {
+		digitalWrite(HeatPad, HIGH);
+	}
+
+
+
+if (h > 75) {
+  digitalWrite(DCCooler, HIGH);
+ } else {
+  digitalWrite(DCCooler, LOW );
+ }
+    
 }
 
 
